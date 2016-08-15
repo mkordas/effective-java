@@ -40,3 +40,17 @@ from Design Patterns book
   * `new/Type/`
     * always new instance
     * `java.util.concurrent.Executors.newSingleThreadExecutor()`
+
+### 2. Consider a builder when faced with many constructor parameters
+
+* Constructors and methods do not look good with many parameters
+  * Builder pattern can help
+  * However, refactor in different way whenever possible`
+* Let's practice!
+  * Create class `NutritionFacts` with the following fields
+    * `servingSize` (ml)
+    * `servings` (per container)
+    * `calories` - optional
+    * `fat` (g) - optional
+    * `sodium` (mg) - optional
+    * `carbohydrate` (g) - optional

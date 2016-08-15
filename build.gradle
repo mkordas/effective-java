@@ -1,9 +1,10 @@
 group 'com.michalkordas'
 version '1.0-SNAPSHOT'
 
-apply plugin: 'java'
-
-sourceCompatibility = 1.5
+allprojects {
+    apply plugin: 'java'
+    sourceCompatibility = 1.5
+}
 
 repositories {
     mavenCentral()

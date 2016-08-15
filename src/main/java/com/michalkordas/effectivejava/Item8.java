@@ -4,6 +4,7 @@ public class Item8 {
 
     public static void main(String[] args) {
         new Point(1, 1);
+        new ColorPoint(1, 1, "blue");
     }
 }
 

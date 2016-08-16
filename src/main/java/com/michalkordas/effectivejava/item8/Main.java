@@ -1,6 +1,6 @@
-package com.michalkordas.effectivejava;
+package com.michalkordas.effectivejava.item8;
 
-public class Item8 {
+public class Main {
 
     public static void main(String[] args) {
         new Point(1, 1);

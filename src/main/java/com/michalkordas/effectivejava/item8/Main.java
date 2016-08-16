@@ -3,8 +3,8 @@ package com.michalkordas.effectivejava.item8;
 public class Main {
 
     public static void main(String[] args) {
-        new Point(1, 1);
-        new ColorPoint(1, 1, "blue");
+        new Point(1, 2);
+        new ColorPoint(1, 2, "red");
     }
 }
 

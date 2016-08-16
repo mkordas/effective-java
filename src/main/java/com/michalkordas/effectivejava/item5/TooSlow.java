@@ -1,6 +1,6 @@
-package com.michalkordas.effectivejava;
+package com.michalkordas.effectivejava.item5;
 
-class Item5 {
+class TooSlow {
 
     // What is so slow here?
     public static void main(String[] args) {

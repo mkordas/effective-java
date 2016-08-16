@@ -3,6 +3,7 @@ version '1.0-SNAPSHOT'
 
 allprojects {
     apply plugin: 'java'
+    apply plugin: 'groovy'
     sourceCompatibility = 1.8
     targetCompatibility = 1.8
 }
